@@ -11,6 +11,8 @@ void crypting(){
 
     fstream image;
     image.open("image.ppm", ios::out | ios::in);
+
+    image<<"10"<<endl;
     image.close();
 }
 void decrypting(){}
